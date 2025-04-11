@@ -1,0 +1,126 @@
+
+body {
+    background: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Trajan', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1320px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    font-size: 25px;
+    margin: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  a {
+    color: #b0b0b0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #e63946;
+    text-shadow: 0 0 8px #e63946;
+  }
+  
+  .header nav {
+    font-size: 18px;
+    background: #070707;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 2px solid #b0b0b0;
+  }
+  
+  .contact-form {
+    width:50%;
+    background-color: #1a1a1a;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(200, 200, 200, 0.2);
+  }
+  .contact-form td {
+    text-align: center;
+
+  }
+
+  .form-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .form-table td {
+    padding: 15px;
+    vertical-align: top;
+    font-size: 16px;
+    color: #e0e0e0;
+  }
+  
+  .form-table input[type="text"],
+  .form-table textarea {
+    align-self:left;
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button[type="submit"] {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff4f5e;
+    box-shadow: 0 0 10px #e63946;
+  }
+  
+  .footer {
+    background: #080808;
+    color: #b0b0b0;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #b0b0b0;
+  }
+  
+  .footer a {
+    color: #e63946;
+    font-weight: bold;
+  }
+  .go-top {
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-nav {
+  font-size: 0.8em;
+  color: #aaa;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 5px;
+}

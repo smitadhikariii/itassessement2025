@@ -1,0 +1,91 @@
+.container {
+    max-width: 1320px;
+    margin: auto;
+    padding: 0 20px;
+  }
+.main p {
+        text-align: center;
+        font-size:18px;
+}
+  h1 {
+    margin: 25px;
+    font-family: 'Trajan';
+    text-align: center;
+  }
+  
+  body {
+    background: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Trajan', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #b0b0b0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #e63946;
+    text-shadow: 0 0 8px #e63946;
+  }
+  
+  .header nav {
+    font-size: 18px;
+    background: #070707;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 2px solid #b0b0b0;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  
+  .gallery a:hover {
+    box-shadow: 0 0 10px #e63946;
+  }
+  
+  .gallery a img {
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #444;
+  }
+  
+  .footer {
+    background: #080808;
+    color: #b0b0b0;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #b0b0b0;
+  }
+  
+  .footer a {
+    color: #e63946;
+    font-weight: bold;
+  }
+  .go-top {
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-nav {
+  font-size: 0.8em;
+  color: #aaa;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 5px;
+}

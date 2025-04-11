@@ -1,0 +1,139 @@
+.container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 0 20px;
+}
+ h1{
+    font-size:25px;
+    margin:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+body {
+    background: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Trajan', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #b0b0b0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #e63946;
+    text-shadow: 0 0 8px #e63946;
+  }
+  
+  .header nav {
+    font-size: 18px;
+    background: #070707;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: 2px solid #b0b0b0;
+  }
+  
+  .banner {
+    margin-top: 3%;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner img {
+    
+    width: 50%;
+    height: 90%;
+    object-fit: cover;
+    border-bottom: 3px solid #b0b0b0;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(193, 182, 182, 0.4);
+  }
+  .banner p {
+  position: absolute;
+  top: 65px;
+  left: 440px;
+  color: white;
+  font-family: 'Arial', serif;
+  font-size: 16px;
+  text-shadow: 0 0 5px #000;
+  text-transform: uppercase;
+  font-style: italic;
+  }
+  
+  .featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 30%;
+    background: #1a1a1a;
+    border: 1px solid #b0b0b0;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px #e63946;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card h2 {
+    font-size: 22px;
+    margin: 10px 0 5px;
+    color: #c0c0c0;
+  }
+  
+  .card p {
+    font-size: 18px;
+    color: #bbb;
+  }
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .footer {
+    background: #080808;
+    color: #b0b0b0;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #b0b0b0;
+  }
+
+  .footer a {
+    color: #e63946;
+    font-weight: bold;
+  }
+  .go-top {
+    text-align: center;
+    margin: 20px 0;
+}
+.footer-nav {
+  font-size: 0.8em;
+  color: #aaa;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer-nav a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 5px;
+}

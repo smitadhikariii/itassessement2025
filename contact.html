@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Contact Us - SoulsDen</title>
+    <link rel="stylesheet" type="text/css" href="contactStyle.css">
+    <script type="text/javascript" src="contactValidation.js"></script>
+</head>
+<body>
+    <div id="top"></div>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html"><u>Contact Us</u></a>
+                <a href="news.html">News and Updates</a>
+                <a href="about.html">About Us</a>
+            </nav>
+        </div>
+
+        <h1>Contact Us</h1>
+
+        <div class="contact-form">
+            <form name="contactForm" onsubmit="return validateForm();">
+                <table class="form-table">
+                    <tr>
+                        <td>Name:</td>
+                        <td colspan="2"><input type="text" id="name" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td colspan="2"><input type="text" id="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>Subject:</td>
+                        <td colspan="2"><input type="text" id="subject" name="subject"></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Message:</td>
+                        <td colspan="2" rowspan="2"><textarea id="message" name="message" rows="6"></textarea></td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td colspan="3" style="text-align:center;">
+                            <button type="submit">Send Message</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="go-top">
+            <a href="#top">↑ Go to Top</a>
+        </div>
+        <div class="footer">
+            <p>SoulsDen © 2025 | 2256 Firelink Shrine | <a href="mailto:support@soulsden.com">support@soulsden.com</a></p>
+        </div>
+        <div class="footer-nav">
+            <p>
+                <a href="index.html">Home</a> |
+                <a href="gallery.html">Gallery</a> |
+                <a href="contact.html">Contact</a> |
+                <a href="news.html">News</a> |
+                <a href="about.html">About</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
